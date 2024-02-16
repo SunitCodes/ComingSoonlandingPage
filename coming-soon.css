@@ -1,0 +1,99 @@
+.body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    height: 90vh;
+    width:90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content{
+    width:50vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image{
+    width:40vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+
+.heading{
+    width:40vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1{
+    font-size: 3.8rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color: #615ad9;
+}
+
+.countdown{
+    width:40vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.countdown span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color:#65617d;
+}
+.countdown p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1px;
+    margin-left:4px;
+    color:#8e8ba3;
+}
+.email{
+    width:50vw;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3%;
+    padding-left:100px;
+    padding-top: 30px;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 15px;
+    color:#8e8ba3;
+    
+}
+.email input{
+    margin-left: 3%;
+    width:300px;
+    height: 25px;
+    border: 1px solid #65617d;
+    font-family:'Poppins', sans-serif;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.email button{
+    height: 29px;
+    color: #DBD9DA;
+    background-color: #615ad9;
+    border: 0px solid #615ad9;
+    cursor: pointer;
+    font-family:  'Montserrat', sans-serif;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
